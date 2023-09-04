@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    This will load boxicons font into your webpage
+
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+
+                <i class='bx bx-window-close' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+
+        </nav>
+
+        <h1>Our Certificate & Online Programs For 2023</h1>
+
+    </section>
+
+
+    <!----------- blog page content ------------>
+
+    <section class="blog-content">
+
+        <div class="row">
+
+            <div class="blog-jeft">
+                <img src="img/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2023 </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, magni voluptas est perferendis,
+                    sequi nihil tempora esse aliquam nesciunt neque, dolores porro sint incidunt explicabo officiis
+                    mollitia quis culpa reiciendis repellendus? Eligendi ipsum sunt voluptate adipisci perspiciatis
+                    necessitatibus nam magnam.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, magni voluptas est perferendis,
+                    sequi nihil tempora esse aliquam nesciunt neque, dolores porro sint incidunt explicabo officiis
+                    mollitia quis culpa reiciendis repellendus? Eligendi ipsum sunt voluptate adipisci perspiciatis
+                    necessitatibus nam magnam.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, fugit eveniet optio eum itaque
+                    voluptate quidem, aspernatur expedita minima odio, repellendus ullam rerum iste nobis dolorum
+                    tempore ratione velit. Aspernatur provident placeat omnis numquam natus libero illum! Placeat
+                    similique libero itaque perferendis dolorum ratione alias, aut distinctio, eius provident modi!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam distinctio, odit sapiente sequi
+                    exercitationem ea omnis corporis natus, magnam dolor tenetur, adipisci nostrum fuga asperiores
+                    necessitatibus tempora commodi. Culpa velit earum officiis magni sint corporis eligendi consequuntur
+                    tenetur, optio ut, neque molestiae? Odio at porro, veniam enim error autem similique.</p>
+
+
+
+
+                <div class="comment-box">
+
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST CATEGORIES</button>
+
+                    </form>
+                </div>
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Bisiness Analytics</span>
+                    <span>21</span>
+                </div>
+
+                <div>
+                    <span>Data Scenice</span>
+                    <span>28</span>
+                </div>
+
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+
+                <div>
+                    <span>Computer Scenice</span>
+                    <span>34</span>
+                </div>
+
+                <div>
+                    <span>AutoCad</span>
+                    <span>42</span>
+                </div>
+
+                <div>
+                    <span>jornalism</span>
+                    <span>22</span>
+                </div>
+
+                <div>
+                    <span>Comerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------ Footer ------------>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere assumenda cum nostrum et accusantium<br>
+            asperiores deserunt voluptate eaque doloremque beatae recusandae ipsa, accusamus ipsam minima?</p>
+        <div class="icons">
+            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-instagram"></i>
+            <i class="bx bxl-linkedin"></i>
+            <i class='bx bxl-vk'></i>
+
+        </div>
+        <p>Made with <i class='bx bx-heart'></i> By Easy Tutoreals</p>
+
+    </section>
+
+
+    <!--------- JavaScript for Toggle Menu ------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
